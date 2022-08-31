@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<button onclick="result()">Check Result</button>
+
+	<script type="text/javascript">
+		
+
+function result(){
+	var Computer = Number(prompt("Enter Computer Marks"));
+	var English = Number(prompt("Enter English Marks"));
+	var Urdu = Number(prompt("Enter Urdu Marks"));
+	var Physics = Number(prompt("Enter Physics Marks"));
+	var Chemistry = Number(prompt("Enter Chemistry Marks"));
+	var Mathematics = Number(prompt("Enter Mathematics Marks"));
+	var Obt = Computer + English + Urdu + Physics + Chemistry + Mathematics;
+	var Persentage = Obt / 500 * 100;
+	document.write("<h1>Your Obtained Marks: </h1>" + Obt);
+	document.write("<h1>Your Persentage: </h1>" + Persentage);
+}
+
+	</script>
+
+</body>
+</html>
